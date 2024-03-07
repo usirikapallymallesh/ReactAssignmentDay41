@@ -1,0 +1,113 @@
+.logo {
+  width: 100%;
+  > h1 {
+    color: rgb(200, 33, 61);
+  }
+}
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.Image_background {
+  width: 100%;
+}
+
+.header > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: grey;
+  margin: 10px;
+  font-size: 20px;
+}
+.header > ul > li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.headere_list {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.header > ul > li {
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  height: 40px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li:hover {
+  background-color: rgb(200, 33, 61);
+}
+
+.Image_background {
+  width: 100%;
+}
+
+.text {
+  background-color: rgb(166, 31, 54);
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  margin: 20px;
+  background-color: rgb(166, 31, 54);
+  color: white;
+  border-color: white;
+}
+.first_para {
+  color: rgb(200, 33, 61);
+}
+
+.footer_text {
+  > h1 {
+    color: rgb(204, 46, 72);
+  }
+}
+
+.copyright {
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: centerw;
+  height: 30px;
+}
+button {
+  margin: 20px;
+  background-color: rgb(166, 31, 54);
+  color: white;
+  border-color: white;
+  /* width: 100px; */
+  height: 30px;
+  font-size: 20px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+  background-color: rgb(200, 33, 61);
+  color: white;
+  border-color: white;
+  /* width: 100px; */
+  height: 30px;
+  font-size: 20px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
